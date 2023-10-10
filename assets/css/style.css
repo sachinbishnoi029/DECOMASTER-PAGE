@@ -33,7 +33,9 @@
     --purple: #9003E5;
     --light-purple: #8A3E74;
     --black: #000;
+    --blue: #010080
 }
+
 
 .fs-sm {
     font-size: var(--fs-sm);
@@ -87,6 +89,10 @@
     color: #FFF;
 }
 
+.blue {
+    color: blue;
+}
+
 .black {
     color: #000;
 }
@@ -122,13 +128,6 @@
     padding: 13px 45px;
 }
 
-.pt-203 {
-    padding-top: 203px;
-}
-
-.pt-40 {
-    padding-top: 40px;
-}
 
 .load {
     top: 30%;
@@ -156,22 +155,6 @@
     height: 800px;
 }
 
-.mt-183 {
-    margin-top: 183px;
-}
-
-.pt-115 {
-    padding-top: 115px;
-}
-
-.pt-203 {
-    padding-top: 203px;
-}
-
-.pl-20 {
-    padding-left: 20px;
-}
-
 .bg-blue {
     background-color: #010080;
 }
@@ -190,55 +173,12 @@
     gap: 150px;
 }
 
-.pl-75 {
-    padding-left: 75px;
-}
-
-.mt-200 {
-    margin-top: 200px;
-}
-
-.pt-68 {
-    padding-top: 68px;
-}
-
-.red-more {
-    padding: 11px 34px;
-    border-radius: 4px;
-    background: #010080;
-    border: none;
-}
-
 .mt-115 {
     margin-top: 115px;
 }
 
-.pl-30 {
-    padding-left: 30px;
-}
-
 .mt-42 {
     margin-top: 42px;
-}
-
-.crd2 {
-
-    border-radius: 45px;
-    background: #F0F0F0;
-}
-
-.e_mail1 {
-    width: 672px;
-    height: 79px;
-    background: #FFF;
-    border: none;
-}
-
-.btn2 {
-    padding: 24px 49px;
-    align-items: flex-start;
-    background: #010080;
-    border: none;
 }
 
 .mt-120 {
@@ -249,45 +189,8 @@
     cursor: pointer;
 }
 
-.mt-24 {
-    margin-top: 24px;
-}
-
-.mt-80 {
-    margin-top: 80px;
-}
-
 .mt-55 {
     margin-top: 55px;
-}
-
-.strkew {
-    stroke-width: 1px;
-    background-color: #F0F0F0;
-    width: 100%;
-    height: 1px;
-    flex-shrink: 0;
-    color: white;
-}
-
-.mt-60 {
-    margin-top: 60px;
-}
-
-.newscard {
-    max-width: 1320px;
-    height: 394px;
-    flex-shrink: 0;
-    border-radius: 45px;
-    background: #F0F0F0;
-}
-
-.new {
-    top: 10%;
-}
-
-.mb140 {
-    margin-bottom: 140px;
 }
 
 .last-box {
@@ -375,14 +278,6 @@
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-}
-
-.now {
-    display: inline-flex;
-    padding: 24px 49px;
-    align-items: flex-start;
-    gap: 10px;
-    background: #010080;
 }
 
 .cross1 {
